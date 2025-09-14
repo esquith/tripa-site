@@ -1,0 +1,11 @@
+wp/wp-admin/
+wp/wp-includes/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-config.php
+*.sql
+*.log
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+/*
+ Theme Name: Twenty Twenty-Four Child (Tripa)
+ Template: twentytwentyfour
+ Version: 0.2.0
+*/
+
+/* Minimal cards/grid for front page */
+.tripa-front{max-width:960px;margin:0 auto;padding:2rem 1rem}
+.tripa-front h2{margin:0 0 .75rem}
+.tripa-grid{display:grid;grid-gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.tripa-card{padding:1rem;border:1px solid rgba(255,255,255,.15);border-radius:12px}
+.tripa-card h3{margin:.25rem 0 .5rem}
+.tripa-card .meta{opacity:.85;font-size:.95rem;margin:0 0 .5rem}
