@@ -1,12 +1,21 @@
-wp-admin/
-wp-includes/
-wp-content/uploads/
-wp-content/upgrade/
-wp-content/cache/
-wp-content/plugins/
-wp-config.php
-.DS_Store
-.idea/
-.vscode/
-*.log
-*.sql
+# Ignore everything by default
+/*
+
+# Allow only what we explicitly un-ignore
+!.gitignore
+!README.md
+!wp-content/
+
+# Inside wp-content, ignore all…
+/wp-content/*
+
+# …except themes
+!/wp-content/themes/
+
+# Ignore all themes…
+/wp-content/themes/*
+
+# …except our child theme
+!/wp-content/themes/twentytwentyfour-child-tripa/**
+
+# (Everything else — plugins, uploads, cache, core — stays ignored)
