@@ -1,11 +1,12 @@
-wp/wp-admin/
-wp/wp-includes/
+wp-admin/
+wp-includes/
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/cache/
+wp-content/plugins/
 wp-config.php
-*.sql
-*.log
 .DS_Store
 .idea/
 .vscode/
+*.log
+*.sql
